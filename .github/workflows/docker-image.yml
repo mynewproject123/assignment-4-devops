@@ -27,7 +27,7 @@ jobs:
 
     - name: Build, tag, and push Docker image to ECR
       env:
-        ECR_REGISTRY: AWS_ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com
+        ECR_REGISTRY: 096395672786.dkr.ecr.ca-central-1.amazonaws.com/uma-ecr
         ECR_REPOSITORY: uma-ecr
         IMAGE_TAG: latest
       run: |
